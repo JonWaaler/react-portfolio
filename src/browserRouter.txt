@@ -1,0 +1,15 @@
+<BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Outlet />}>
+          { /* Index/Home page of the website*/ }
+          <Route index element={<Home />} />
+
+          { /* Route listed that aren't the index page of the website*/ }
+          {/* <Route path="About" element={<About />} />
+          <Route path="Projects" element={<Projects />} /> */}
+
+          { /* If a user visits any route that does not exist render the NoPage result*/ }
+          <Route path="*" element={<NoPage />} />
+        </Route>
+      </Routes>
+      </BrowserRouter> 

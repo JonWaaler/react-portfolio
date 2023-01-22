@@ -1,0 +1,16 @@
+.nopage-main {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 100%;
+    color: var(--main-text);
+    text-align: center;
+}
+
+.nopage-main h1 {
+    font-size: 10em;
+}
+
+.nopage-main h3 {
+    font-size: 70px;
+}
+

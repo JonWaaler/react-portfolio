@@ -1,32 +1,31 @@
 * {
   font-family: "Roboto", sans-serif;
-  color: blanchedalmond;
-  background: #473e53;
+  background-color: var(--main-bg);
+  color: #00eeff;
 }
 
-header {
-  background: #2e2836;
-  padding: 0px, 50px;
-}
-footer {
-  background: #2e2836;
-}
-
-project {
-  border: 2px solid #f3f3f3;
+:root {
+  --dark-bg: #0b0c10;
+  --light-bg: #1f2833;
+  --regular-text: #c5c6c7;
+  --bright-text: #b8e9f1;
+  --regular-color: #45a29e;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+main {
+  border: 1px rgb(195, 0, 255) solid;
+  height: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.top-spacing {
+  padding-top: 20%;
+  padding-bottom: 10vh;
+}
+
+.bg-light {
+  background-color: var(--light-bg) !important;
+}
+
+.bg-dark {
+  background-color: var(--dark-bg) !important;
 }
