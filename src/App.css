@@ -29,3 +29,35 @@ main {
 .bg-dark {
   background-color: var(--dark-bg) !important;
 }
+
+/* Describes the space between the header and the footer */
+.main-body {
+  
+}
+
+/* NAVBAR*/
+header {
+  border-bottom: 1px solid var(--main-blue);
+}
+
+.header title {
+  color: var(--main-blue) !important;
+}
+
+.resume-btn {
+  background-color: transparent;
+  border: 2px solid var(--main-blue);
+}
+
+.logo {
+  height: 42px;
+  width: 42px;
+  color: rgb(0, 0, 0);
+  background-color: #00eeff;
+  margin: 4px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  font-size: 32px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
