@@ -1,4 +1,6 @@
 import React from "react";
+import resume from "../../assets/resume.pdf"
+import "./Navbar.css"
 
 class Navbar extends React.Component {
     constructor(props) {
@@ -7,26 +9,64 @@ class Navbar extends React.Component {
   
     // Tell the parent component "App" to switch to a different component
     changeActiveComponent(componentName) {
-      switch (componentName) {
-        case "home":
-          this.props.propUseHome();
-          break;
-  
-        case "about":
-          this.props.propUseAbout();
-          break;
-  
-        case "projects":
-          this.props.propUseProjects();
-        break;
-      
-        default:
-          // error check
-          console.log("Switching to a  component name that is not handled: '" + componentName + "'");
-          break;
-      }
+        this.props.propChangeComponent(componentName);
     }
-  
+
+    // Creates a Navbutton, choosing between an 'active' or inactive version of the button
+    createButton (componentName) {
+      // Check if the component we're creating is the active component
+      if(this.props.propActiveComponent == componentName){
+        return (
+          // Active button
+          <button 
+                className="nav-link active rounded remove-border"
+                onClick={() => this.changeActiveComponent(componentName)}>
+                  {this.capitalizeFirstLetter(componentName)}
+          </button>
+        );
+      }
+      else{
+        return (
+          // Inactive button
+          <button 
+                className="nav-link rounded remove-border"
+                onClick={() => this.changeActiveComponent(componentName)}>
+                  {this.capitalizeFirstLetter(componentName)}
+          </button>
+        );
+      }
+
+
+    }
+
+    // Capitalize fist letter in a string
+    capitalizeFirstLetter(s) {
+      return s.charAt(0).toUpperCase() + s.slice(1);
+    }
+
+    // Separates navbar list from the rest of the code
+    createNavButtons(){
+        return (
+          <ul className="navbar-nav bg-dark">
+            <li className="nav-item active bg-dark">
+              {
+                this.createButton("home")
+              }
+            </li>
+            <li className="nav-item active bg-dark">
+              {
+                this.createButton("projects")
+              }
+            </li>
+            <li className="nav-item active bg-dark">
+              <a className="nav-link active resume-btn rounded" target="_blank" href={resume}>
+                Resume
+              </a>
+            </li>
+        </ul>
+        )
+    }
+
     render() {
       return (
       <>
@@ -45,27 +85,7 @@ class Navbar extends React.Component {
           className="collapse navbar-collapse flex-row-reverse bg-dark"
           id="navbarNav"
         >
-          <ul className="navbar-nav bg-dark">
-            <li className="nav-item active bg-dark">
-  
-              <button onClick={() => this.changeActiveComponent("about")}>
-                About
-              </button>
-            </li>
-            <li className="nav-item active bg-dark">
-              <button onClick={() => this.changeActiveComponent("projects")}>
-                My Work
-              </button>
-            </li>
-            <li className="nav-item active bg-dark">
-              <button
-                href="#fetch-resume"
-                className="nav-link active resume-btn rounded"
-              >
-                Resume
-              </button>
-            </li>
-          </ul>
+          {this.createNavButtons()}
         </div>
       </nav>
       </header>

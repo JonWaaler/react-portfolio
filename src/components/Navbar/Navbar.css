@@ -1,0 +1,43 @@
+/* NAVBAR*/
+header {
+    border-bottom: 1px solid whitesmoke;
+  }
+  
+  .header title {
+    color: var(--regular-color) !important;
+  }
+  
+  .resume-btn {
+    background-color: var(--light-bg);
+    border: 2px solid var(--regular-color);
+    margin-left: 10px;
+    padding: 6px 12px !important;
+    color: var(--bright-text) !important;
+  }
+
+  .resume-btn:hover {
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px 1px #4de4ff, 0 0 10px 1px #4de4ff;  
+    transition: 0.2s;
+  }
+
+  .nav-item {
+    margin-left: 10px;
+  }
+
+  .remove-border {
+    border: 0;
+  }
+  
+  .logo {
+    height: 42px;
+    width: 42px;
+    color: var(--bright-text);
+    background-color: var(--regular-color);
+    margin: 4px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-size: 32px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
