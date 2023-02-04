@@ -1,3 +1,27 @@
 .div {
   height: 500px;
+  color: var(--bright-text) !important;
+
+}
+
+.tag-container {
+  display: flex;
+}
+
+.tag {
+  border: 2px solid var(--regular-color);
+  border-radius: 25px;
+  color: var(--regular-color);
+  padding: 2px 10px;
+  margin: 10px 5px;
+}
+
+.tag:hover {
+  border: 2px solid #fff;
+  box-shadow: 0 0 10px 1px #4de4ff, 0 0 10px 1px #4de4ff;  
+  transition: 0.2s;
+}
+
+.project {
+  color: #fff;
 }

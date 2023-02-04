@@ -1,0 +1,114 @@
+:root {
+  --glow-effect: 1;
+}
+
+.main-container {
+    height: 90vh;
+    background-color: inherit;
+    /* border: #4df3ff 1px solid; */
+}
+
+.hero {
+  padding-top: 20vh;
+  width: 400px;
+  margin: 0px auto;
+}
+
+.hero h1 {
+     font-size: 5em; 
+}
+
+.hero h3 {
+  color: var(--regular-color);
+  font-size: 1.9em; 
+}
+
+.center-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-container-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+    margin: auto;
+}
+
+/* The "call to action button on hero section */
+.action-view-work {
+    border: 3px solid whitesmoke;
+    color: whitesmoke;
+    padding: 10px 20px;
+    padding-left: 24px;
+    margin: 20px auto;
+}
+
+/* The down arrow */
+.view-code-sample {
+  border: none;
+  position: absolute;
+  font-size: 22px;
+  bottom: 10vh;
+  text-decoration: none;
+  text-align: center;
+}
+
+.view-code-sample img {
+  fill: #fff
+}
+.view-code-sample img:hover path {
+  fill: aquamarine;
+}
+.view-code-sample p {
+  margin-bottom: 0;
+}
+
+/* Down arrow */
+.down-chevron {
+  height: 75px;
+  width: 75px;
+  filter: brightness(1000%);
+  
+}
+.down-chevron:hover {
+  filter: hue-rotate(430deg);
+}
+
+.social-links {
+  padding: 10vw;
+  color: var(--regular-color);
+  text-align: center;
+}
+.social-links h2 {
+  margin-bottom: 30px;
+}
+.social-links a {
+  margin: 70px;
+  color: whitesmoke;
+}
+
+
+.glow {
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #00a5e6, 0 0 8px #00c4e6, 0 0 10px #00b8e6, 0 0 12px #00cbe6, 0 0 14px #00dee6;
+  }
+  to {
+    text-shadow: 0 0 4px #fff, 0 0 6px #4de4ff, 0 0 8px #4de4ff, 0 0 10px #4deaff, 0 0 12px #4dd5ff, 0 0 14px #4df3ff, 0 0 16px #4de4ff;
+  }
+}

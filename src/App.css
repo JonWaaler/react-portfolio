@@ -1,63 +1,26 @@
 * {
   font-family: "Roboto", sans-serif;
   background-color: var(--main-bg);
-  color: #00eeff;
+  scroll-behavior: smooth;
 }
 
 :root {
-  --dark-bg: #0b0c10;
+  --dark-bg: #222730;
   --light-bg: #1f2833;
   --regular-text: #c5c6c7;
   --bright-text: #b8e9f1;
-  --regular-color: #45a29e;
-}
-
-main {
-  border: 1px rgb(195, 0, 255) solid;
-  height: 100%;
-}
-
-.top-spacing {
-  padding-top: 20%;
-  padding-bottom: 10vh;
+  --regular-color: #94bdce;
+  scroll-behavior: smooth;
 }
 
 .bg-light {
   background-color: var(--light-bg) !important;
 }
 
+.bg-normal {
+  background-color: var(--light-bg) !important;
+}
+
 .bg-dark {
   background-color: var(--dark-bg) !important;
-}
-
-/* Describes the space between the header and the footer */
-.main-body {
-  
-}
-
-/* NAVBAR*/
-header {
-  border-bottom: 1px solid var(--main-blue);
-}
-
-.header title {
-  color: var(--main-blue) !important;
-}
-
-.resume-btn {
-  background-color: transparent;
-  border: 2px solid var(--main-blue);
-}
-
-.logo {
-  height: 42px;
-  width: 42px;
-  color: rgb(0, 0, 0);
-  background-color: #00eeff;
-  margin: 4px;
-  border: 2px solid #ffffff;
-  border-radius: 5px;
-  font-size: 32px;
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

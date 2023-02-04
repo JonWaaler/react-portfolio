@@ -1,25 +1,45 @@
 import React from "react";
 import "./Projects.css";
+let data = require('../../projects.json');
 
-function Projects() {
+function createTagButton(tagName){
   return (
-    <div className="container">
-      <div className="container row">
-        <div className="project col">project</div>
-        <div className="project col">project</div>
-        <div className="project col">project</div>
-      </div>
-      <div className="container row">
-        <div className="project col">project</div>
-        <div className="project col">project</div>
-        <div className="project col">project</div>
-      </div>
-      <div className="container row">
-        <div className="project col">project</div>
-        <div className="project col">project</div>
-        <div className="project col">project</div>
-      </div>
+    <button className="tag">
+      {tagName}
+    </button>
+  )
+}
+
+function createProjectDiv(project){
+  return (
+    <div className="project col">
+      Project: {project.title}
     </div>
+    )
+  }
+  
+  function Projects() {
+  return (
+    <main className="bg-normal">
+      <div className="main-container container">
+        <h4>Tags: </h4>
+        <div className="tag-container">
+          {
+            data.tags.map(createTagButton)
+          }
+        </div>
+
+        <div className="container row">
+          {
+            data.projects.map(createProjectDiv)
+          }
+        </div>
+      </div>
+
+      <div className="main-container container">
+
+      </div>
+    </main>
   );
 }
 
