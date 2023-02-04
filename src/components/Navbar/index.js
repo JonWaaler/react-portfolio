@@ -59,10 +59,11 @@ class Navbar extends React.Component {
               }
             </li>
             <li className="nav-item active bg-dark">
-              <a className="nav-link active resume-btn rounded" target="_blank" href={resume}>
+              <a className="nav-link active resume-btn rounded" target="_blank" href={resume} rel="noreferrer">
                 Resume
               </a>
             </li>
+            
         </ul>
         )
     }
@@ -89,6 +90,9 @@ class Navbar extends React.Component {
         </div>
       </nav>
       </header>
+      <iframe src={resume} width="100%">
+
+            </iframe>
       </>
       )
     };
