@@ -1,11 +1,11 @@
-.footer {
-
-  color: #ebebeb;
-  position: fixed;
-  bottom: 0;
+.my-footer {
+  color: whitesmoke;
+  position: relative;
   width: 100%;
   white-space: nowrap;
   height: 60px;
   line-height: 60px;
   text-align: center;
+  border: 0;
+  border-top: 1px solid whitesmoke;
 }

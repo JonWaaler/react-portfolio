@@ -14,13 +14,13 @@
 }
 
 .bg-light {
-  background-color: var(--light-bg) !important;
+  background-color: var(--light-bg);
 }
 
 .bg-normal {
-  background-color: var(--light-bg) !important;
+  background-color: var(--light-bg) ;
 }
 
 .bg-dark {
-  background-color: var(--dark-bg) !important;
+  background-color: var(--dark-bg) ;
 }

@@ -23,5 +23,15 @@
 }
 
 .project {
-  color: #fff;
+  color: #ffffff;
+  border: 1px pink solid;
+}
+
+.project img {
+  width: 256px;
+  height: 144px;
+  /* width: 250px;
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover; */
 }

@@ -1,4 +1,5 @@
 {
+  "resume-link": "https://jonwaaler.github.io/web/viewer.html?file=Jon-Waaler-Resume.pdf",
   "tags":[
     "front-end",
     "back-end",
@@ -16,7 +17,7 @@
           "mysql",
           "express"
         ],
-        "imageURI": "https://imgur.com/ismdf",
+        "imageURI": "https://i.imgur.com/ighB02D.jpeg",
         "website": "www.site.com",
         "github": "github.com"
       },
@@ -27,7 +28,7 @@
           "mysql",
           "express"
         ],
-        "imageURI": "https://imgur.com/ismdf",
+        "imageURI": "https://i.imgur.com/QF8teMB.jpeg",
         "website": "www.site.com",
         "github": "github.com"
       },
@@ -38,7 +39,18 @@
           "mysql",
           "express"
         ],
-        "imageURI": "https://imgur.com/ismdf",
+        "imageURI": "https://i.imgur.com/ighB02D.jpeg",
+        "website": "www.site.com",
+        "github": "github.com"
+      },
+      {
+        "title": "myProject4",
+        "tags": [
+          "azure",
+          "mysql",
+          "express"
+        ],
+        "imageURI": "https://i.imgur.com/QF8teMB.jpeg",
         "website": "www.site.com",
         "github": "github.com"
       }

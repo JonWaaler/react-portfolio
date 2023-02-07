@@ -4,7 +4,7 @@ let data = require('../../projects.json');
 
 function createTagButton(tagName){
   return (
-    <button className="tag">
+    <button className="tag" key={tagName}>
       {tagName}
     </button>
   )
@@ -12,13 +12,20 @@ function createTagButton(tagName){
 
 function createProjectDiv(project){
   return (
-    <div className="project col">
-      Project: {project.title}
+    <div className="project col" key={project.title}>
+      <div className="row">
+        <a href="" target="_blank">
+          <img src={project.imageURI}></img>
+        </a>
+      </div>
+      <div className="row" >
+        <h1>Project: {project.title}</h1>
+      </div>
     </div>
     )
   }
   
-  function Projects() {
+function Projects() {
   return (
     <main className="bg-normal">
       <div className="main-container container">
@@ -37,7 +44,7 @@ function createProjectDiv(project){
       </div>
 
       <div className="main-container container">
-
+        
       </div>
     </main>
   );

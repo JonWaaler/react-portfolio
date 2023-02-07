@@ -3,15 +3,21 @@
 }
 
 .main-container {
-    height: 90vh;
+    height: 95vh;
     background-color: inherit;
     /* border: #4df3ff 1px solid; */
+    
 }
 
 .hero {
   padding-top: 20vh;
   width: 400px;
   margin: 0px auto;
+}
+
+.appear-top {
+  position: relative;
+  z-index: 1;
 }
 
 .hero h1 {
@@ -52,10 +58,7 @@
 
 /* The down arrow */
 .view-code-sample {
-  border: none;
-  position: absolute;
-  font-size: 22px;
-  bottom: 10vh;
+  margin-top: 20vh;
   text-decoration: none;
   text-align: center;
 }

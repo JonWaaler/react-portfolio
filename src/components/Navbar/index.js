@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../../assets/resume.pdf"
+import ResumeLink from "../../projects.json"
 import "./Navbar.css"
 
 class Navbar extends React.Component {
@@ -59,11 +59,10 @@ class Navbar extends React.Component {
               }
             </li>
             <li className="nav-item active bg-dark">
-              <a className="nav-link active resume-btn rounded" target="_blank" href={resume} rel="noreferrer">
+              <a className="nav-link active resume-btn rounded" target="_blank" href={ResumeLink["resume-link"]}>
                 Resume
               </a>
             </li>
-            
         </ul>
         )
     }
@@ -90,9 +89,6 @@ class Navbar extends React.Component {
         </div>
       </nav>
       </header>
-      <iframe src={resume} width="100%">
-
-            </iframe>
       </>
       )
     };
