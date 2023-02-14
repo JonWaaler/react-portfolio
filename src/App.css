@@ -7,6 +7,7 @@
 :root {
   --dark-bg: #222730;
   --light-bg: #1f2833;
+  --light-alt-bg: "#324052";
   --regular-text: #c5c6c7;
   --bright-text: #b8e9f1;
   --regular-color: #94bdce;
@@ -18,9 +19,32 @@
 }
 
 .bg-normal {
-  background-color: var(--light-bg) ;
+  background-color: var(--light-bg);
 }
 
 .bg-dark {
-  background-color: var(--dark-bg) ;
+  background-color: var(--dark-bg);
+}
+
+/* Used to bring elements above particlesjs */
+.appear-top {
+  position: relative;
+  z-index: 1;
+}
+
+/* Global container classes */
+.center-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.center-container-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.center {
+  margin: auto;
 }

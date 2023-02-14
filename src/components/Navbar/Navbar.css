@@ -5,19 +5,15 @@ header {
   z-index: 1;
 }
   
-.header title {
-  color: var(--regular-color) !important;
-}
-  
-.resume-btn {
+#resume-btn {
     background-color: var(--light-bg);
     border: 2px solid var(--regular-color);
     margin-left: 10px;
-    padding: 6px 12px !important;
-    color: var(--bright-text) !important;
+    padding: 6px 12px;
+    color: var(--bright-text);
 }
 
-.resume-btn:hover {
+#resume-btn:hover {
     border: 2px solid #fff;
     box-shadow: 0 0 10px 1px #4de4ff, 0 0 10px 1px #4de4ff;  
     transition: 0.2s;

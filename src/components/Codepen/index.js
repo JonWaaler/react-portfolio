@@ -4,7 +4,7 @@ import "./Codepen.css"
 const Codepen = (props) => {
     return (
         <div className="code-sample">
-          <h2><strong>CodePen - Code Sample</strong></h2>
+          <h2><strong>Front-end React Code Sample</strong></h2>
           <h3><i>'React Navbar' & 'SwitchComponent' components</i></h3>
           <iframe height="300" title="React v18 Navbar and SwitchComponent" src="https://codepen.io/JonWaaler/embed/preview/VwBdBwE?default-tab=js%2Cresult" loading="lazy" allowtransparency="true">
             See the Pen <a href="https://codepen.io/JonWaaler/pen/VwBdBwE">

@@ -59,7 +59,7 @@ class Navbar extends React.Component {
               }
             </li>
             <li className="nav-item active bg-dark">
-              <a className="nav-link active resume-btn rounded" target="_blank" href={ResumeLink["resume-link"]}>
+              <a id="resume-btn" className="nav-link active rounded" target="_blank" href={ResumeLink["resume-link"]}>
                 Resume
               </a>
             </li>

@@ -3,49 +3,34 @@
 }
 
 .main-container {
-    height: 95vh;
-    background-color: inherit;
-    /* border: #4df3ff 1px solid; */
-    
+  height: 95vh;
 }
-
 .hero {
-  padding-top: 20vh;
+  padding-top: 10vh;
   width: 400px;
   margin: 0px auto;
 }
 
-.appear-top {
-  position: relative;
-  z-index: 1;
+.shape-divider {
 }
 
 .hero h1 {
      font-size: 5em; 
 }
-
 .hero h3 {
   color: var(--regular-color);
   font-size: 1.9em; 
 }
-
-.center-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 42px;
 }
 
-.center-container-col {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.center {
-    margin: auto;
-}
 
 /* The "call to action button on hero section */
 .action-view-work {
@@ -56,13 +41,47 @@
     margin: 20px auto;
 }
 
-/* The down arrow */
+
+/* About section */
+.about-title {
+  color: aquamarine;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+  
+}
+.location-tag {
+  display: flex;
+  justify-content: right;
+  margin-right: 50px;
+}
+.location-tag img {
+  height: 30px;
+}
+.location-tag h6 {
+  text-align: center;
+  margin-left: 8px;
+}
+.about-desc {
+  color: whitesmoke;
+}
+
+/* Down arrow/chevron */
 .view-code-sample {
-  margin-top: 20vh;
+  position: absolute;
+  bottom: 10vh;
   text-decoration: none;
   text-align: center;
 }
-
+.view-code-sample img {
+  height: 75px;
+  width: 75px;
+  filter: brightness(1000%);
+  
+}
+.view-code-sample img:hover {
+  filter: hue-rotate(430deg);
+}
 .view-code-sample img {
   fill: #fff
 }
@@ -73,31 +92,20 @@
   margin-bottom: 0;
 }
 
-/* Down arrow */
-.down-chevron {
-  height: 75px;
-  width: 75px;
-  filter: brightness(1000%);
-  
-}
-.down-chevron:hover {
-  filter: hue-rotate(430deg);
-}
-
+/* Social Links section */
 .social-links {
-  padding: 10vw;
+  padding: 7vw 0;
   color: var(--regular-color);
   text-align: center;
 }
 .social-links h2 {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .social-links a {
-  margin: 70px;
   color: whitesmoke;
 }
 
-
+/* Glow effects */
 .glow {
   font-size: 24px;
   color: #fff;

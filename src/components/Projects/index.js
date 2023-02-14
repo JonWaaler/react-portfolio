@@ -2,11 +2,11 @@ import React from "react";
 import "./Projects.css";
 let data = require('../../projects.json');
 
-function createTagButton(tagName){
+function createProjectTags(projectTags) {
   return (
-    <button className="tag" key={tagName}>
-      {tagName}
-    </button>
+    <li className="tag">
+      {projectTags}
+    </li>
   )
 }
 
@@ -19,7 +19,21 @@ function createProjectDiv(project){
         </a>
       </div>
       <div className="row" >
-        <h1>Project: {project.title}</h1>
+        <h3>Project: {project.title}</h3>
+
+        <ul className="tag-list tag-container">
+          {
+            project.tags.map(createProjectTags)
+          }
+        </ul>
+
+        <a href={`${project.github}`} target="_blank">
+          <button>View Source</button>
+        </a>
+        <a href={`${project.website}`} target="_blank">
+          <button className="">Live Demo</button>
+        </a>
+
       </div>
     </div>
     )
@@ -29,13 +43,6 @@ function Projects() {
   return (
     <main className="bg-normal">
       <div className="main-container container">
-        <h4>Tags: </h4>
-        <div className="tag-container">
-          {
-            data.tags.map(createTagButton)
-          }
-        </div>
-
         <div className="container row">
           {
             data.projects.map(createProjectDiv)

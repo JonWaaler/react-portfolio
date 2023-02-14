@@ -1,58 +1,56 @@
 {
-  "resume-link": "https://jonwaaler.github.io/web/viewer.html?file=Jon-Waaler-Resume.pdf",
-  "tags":[
-    "front-end",
-    "back-end",
-    "full-stack",
-    "app",
-    "azure",
-    "mysql",
-    "express"
-  ],
+  "resume-link": "https://drive.google.com/file/d/16WalIDzDv0-8KEHwD94HM1h0_TG5308p/view",
   "projects": [
-      {
-        "title": "myProject1",
-        "tags": [
-          "azure",
-          "mysql",
-          "express"
-        ],
-        "imageURI": "https://i.imgur.com/ighB02D.jpeg",
-        "website": "www.site.com",
-        "github": "github.com"
-      },
-      {
-        "title": "myProject2",
-        "tags": [
-          "azure",
-          "mysql",
-          "express"
-        ],
-        "imageURI": "https://i.imgur.com/QF8teMB.jpeg",
-        "website": "www.site.com",
-        "github": "github.com"
-      },
-      {
-        "title": "myProject3",
-        "tags": [
-          "azure",
-          "mysql",
-          "express"
-        ],
-        "imageURI": "https://i.imgur.com/ighB02D.jpeg",
-        "website": "www.site.com",
-        "github": "github.com"
-      },
-      {
-        "title": "myProject4",
-        "tags": [
-          "azure",
-          "mysql",
-          "express"
-        ],
-        "imageURI": "https://i.imgur.com/QF8teMB.jpeg",
-        "website": "www.site.com",
-        "github": "github.com"
-      }
-    ]
-  }
+    {
+      "title": "NoteTaker - ASP.Dotnet ",
+      "tags": [
+        "C#",
+        "ASP Dotnet",
+        "Razor Pages"
+      ],
+      "videoShowcase": "",
+      "liveOn": "Microsoft Azure",
+      "imageURI": "https://i.imgur.com/Bu9NTG4.png",
+      "website": "https://testexnotesapp.azurewebsites.net/",
+      "github": ""
+    },
+
+    {
+      "title": "Tech Blog Shorts",
+      "tags": [
+        ""
+      ],
+      "videoShowcase": "",
+      "liveOn": "Heroku",
+      "imageURI": "https://i.imgur.com/cH4lzM6.png",
+      "website": "https://jon-tech-blog-shorts.herokuapp.com/",
+      "github": ""
+    },
+    {
+      "title": "Open Weather API",
+      "tags": [
+        "OpenWeatherAPI",
+        ""
+      ],
+      "videoShowcase": "",
+      "liveOn": "Github Pages",
+      "imageURI": "https://i.imgur.com/VaV5zb9.png",
+      "website": "https://jonwaaler.github.io/open-weather/",
+      "github": "github.com"
+    },
+    {
+      "title": "Run Buddy Training",
+      "tags": [
+        "Html",
+        "CSS",
+        "Javascript",
+        "GoogleMaps"
+      ],
+      "videoShowcase": "",
+      "liveOn": "Github Pages",
+      "imageURI": "https://i.imgur.com/1neSGD9.png",
+      "website": "www.site.com",
+      "github": "github.com"
+    }
+  ]
+}
