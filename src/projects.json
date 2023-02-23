@@ -2,44 +2,51 @@
   "resume-link": "https://drive.google.com/file/d/16WalIDzDv0-8KEHwD94HM1h0_TG5308p/view",
   "projects": [
     {
-      "title": "NoteTaker - ASP.Dotnet ",
+      "title": "NoteTaker - ASP.Dotnet",
       "tags": [
         "C#",
         "ASP Dotnet",
         "Razor Pages"
       ],
       "videoShowcase": "",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "liveOn": "Microsoft Azure",
-      "imageURI": "https://i.imgur.com/Bu9NTG4.png",
+      "imageURI": "https://i.imgur.com/prYL6T6.png",
       "website": "https://testexnotesapp.azurewebsites.net/",
-      "github": ""
+      "github": "https://github.com/JonWaaler/ASPCore_NoteApp"
     },
 
     {
       "title": "Tech Blog Shorts",
       "tags": [
-        ""
+        "bcrypt auth",
+        "express",
+        "mysql2",
+        "sequelize",
+        "handlebars"
       ],
       "videoShowcase": "",
       "liveOn": "Heroku",
       "imageURI": "https://i.imgur.com/cH4lzM6.png",
       "website": "https://jon-tech-blog-shorts.herokuapp.com/",
-      "github": ""
+      "github": "https://github.com/JonWaaler/MVC-Challenge"
     },
     {
       "title": "Open Weather API",
       "tags": [
         "OpenWeatherAPI",
-        ""
+        "Html",
+        "css",
+        "javascript"
       ],
       "videoShowcase": "",
       "liveOn": "Github Pages",
       "imageURI": "https://i.imgur.com/VaV5zb9.png",
       "website": "https://jonwaaler.github.io/open-weather/",
-      "github": "github.com"
+      "github": "https://github.com/JonWaaler/open-weather"
     },
     {
-      "title": "Run Buddy Training",
+      "title": "Run Buddy",
       "tags": [
         "Html",
         "CSS",
@@ -49,8 +56,8 @@
       "videoShowcase": "",
       "liveOn": "Github Pages",
       "imageURI": "https://i.imgur.com/1neSGD9.png",
-      "website": "www.site.com",
-      "github": "github.com"
+      "website": "https://jonwaaler.github.io/run-buddy/",
+      "github": "https://github.com/JonWaaler/run-buddy"
     }
   ]
 }

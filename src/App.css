@@ -7,7 +7,7 @@
 :root {
   --dark-bg: #222730;
   --light-bg: #1f2833;
-  --light-alt-bg: "#324052";
+  --light-alt-bg: #324052;
   --regular-text: #c5c6c7;
   --bright-text: #b8e9f1;
   --regular-color: #94bdce;
@@ -47,4 +47,27 @@
 }
 .center {
   margin: auto;
+}
+
+.btn-primary {
+  background-color: var(--dark-bg);
+  border-color: #b8e9f1;
+  color: #b8e9f1;
+}
+.btn-primary:hover {
+  background-color: var(--light-bg);
+  border-color: #c5c6c7;
+  color: whitesmoke;
+  transition: 0.1s;
+}
+.btn-secondary {
+  background-color: var(--dark-bg);
+  border-color: var(--regular-color);
+  color: var(--regular-color);
+}
+.btn-secondary:hover {
+  background-color: var(--dark-bg);
+  border-color: var(--regular-color);
+  color: var(--bright-text);
+  transition: 0.1s;
 }

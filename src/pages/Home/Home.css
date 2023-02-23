@@ -1,25 +1,16 @@
 :root {
   --glow-effect: 1;
 }
-
-.main-container {
-  height: 95vh;
-}
 .hero {
   padding-top: 10vh;
-  width: 400px;
   margin: 0px auto;
 }
-
-.shape-divider {
-}
-
 .hero h1 {
-     font-size: 5em; 
+  font-size: 3em;
 }
 .hero h3 {
   color: var(--regular-color);
-  font-size: 1.9em; 
+  font-size: 1em; 
 }
 .profile-pic {
   width: 140px;
@@ -39,31 +30,6 @@
     padding: 10px 20px;
     padding-left: 24px;
     margin: 20px auto;
-}
-
-
-/* About section */
-.about-title {
-  color: aquamarine;
-  display: flex;
-  justify-content: space-around;
-  padding-top: 100px;
-  
-}
-.location-tag {
-  display: flex;
-  justify-content: right;
-  margin-right: 50px;
-}
-.location-tag img {
-  height: 30px;
-}
-.location-tag h6 {
-  text-align: center;
-  margin-left: 8px;
-}
-.about-desc {
-  color: whitesmoke;
 }
 
 /* Down arrow/chevron */
@@ -94,7 +60,7 @@
 
 /* Social Links section */
 .social-links {
-  padding: 7vw 0;
+  padding: 40px 0;
   color: var(--regular-color);
   text-align: center;
 }
@@ -122,4 +88,41 @@
   to {
     text-shadow: 0 0 4px #fff, 0 0 6px #4de4ff, 0 0 8px #4de4ff, 0 0 10px #4deaff, 0 0 12px #4dd5ff, 0 0 14px #4df3ff, 0 0 16px #4de4ff;
   }
+}
+
+/* Height - MEDIA QUERY */
+@media screen and (max-height: 720px) {
+  .hero h1 {
+    font-size: 3em;
+  }
+  .hero h3 {
+    font-size: 1em;
+  }
+  .view-code-sample {
+    display: none;
+  }
+}
+@media screen and (min-height: 720px) {
+  .hero h1 {
+    font-size: 5em;
+  }
+  .hero h3 {
+    font-size: 1.9em;
+  }
+}
+/* MEDIA QUERIES */
+@media screen and (max-width: 375px) {
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+}
+@media screen and (min-width: 375px) {
+
 }

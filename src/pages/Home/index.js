@@ -1,9 +1,10 @@
 import React from "react";
-import Codepen from "../Codepen";
+import Codepen from "../../components/Codepen";
+import About from "../../components/About";
+
 import DownChevronIcon from "../../assets/images/down-chevron.svg";
-import LocationIcon from "../../assets/images/google-maps.png"
-import ParticleBackground from "../ParticleBackground";
-import data from "../../projects.json"
+import ParticleBackground from "../../components/ParticleBackground";
+import data from "../../projects.json";
 import "./Home.css";
 
 class Home extends React.Component {
@@ -23,7 +24,7 @@ class Home extends React.Component {
       <main className="bg-normal">
         <ParticleBackground />
           { /* Home/hero */}
-          <div className="main-container container"  style={{height: "80vh"}}>
+          <div className="container"  style={{height: "80vh"}}>
             <div className="center-container-col hero">
               <img className="profile-pic" src="https://jonwaaler.github.io/images/profilepicture.jpg"/>
               <h1 className="glow">Jon Waaler</h1>
@@ -40,44 +41,19 @@ class Home extends React.Component {
           </div>
 
 
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 318"><path fill="#324052" d="M0,288L48,272C96,256,192,224,288,218.7C384,213,480,235,576,245.3C672,256,768,256,864,234.7C960,213,1056,171,1152,154.7C1248,139,1344,149,1392,154.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
         
         {/* About section */}
-        <div style={{backgroundColor: "#324052", minHeight: "300px"}}>
-        <div id="about-me" className="container about-section">
-          <div className="about-title">
-            <h3>About Me</h3>
-            <div className="location-tag">
-              <img className="appear-top" src={ LocationIcon } />
-              <h3>Toronto, Ontario</h3>
-            </div>
-          </div>
-          <div className="about-desc">
-            <p className="container">
-              Industrious entry level Full Stack Web Developer with 2 years of professional experience in Game Development using Unity3D and C#. 
-              I started programming in highschool and later completed (with Honors) a 4 year Game Development degree at Ontario Tech University.
-                            
-            </p>
-            <li className="nav-item active" style={{listStyle: "none", margin: "0 auto"}}>
-              <a id="resume-btn" className="nav-link active rounded" target="_blank" href={data["resume-link"]} style={{width: "100px", textAlign: "center"}} >
-                Resume
-              </a>
-            </li>
-          </div>
+        <div id="about-me" className="" style={{height: "800px", margin: "60px 0"}}>
+          <About />
         </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319"><path fill="#324052" d="M0,288L48,272C96,256,192,224,288,218.7C384,213,480,235,576,245.3C672,256,768,256,864,234.7C960,213,1056,171,1152,154.7C1248,139,1344,149,1392,154.7L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
-
         
         {/* Code section */}
-        <div className="main-container container" style={{height: "600px"}}>
-            <div id="code-area">
-              <Codepen />
-            </div>
+        <div className="container" style={{height: "600px"}}>
+          <Codepen />
         </div>
 
         {/* Social links section */}
-        <div className="main-container container" style={{height: "400px"}}>
+        <div className="container" style={{height: "400px"}}>
             <div className="social-links">
               <h2 className="appear-top">More Code on GitHub</h2>
               <a className="appear-top" label="github" href="https://github.com/JonWaaler/react-portfolio" target="_blank">

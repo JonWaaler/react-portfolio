@@ -71,23 +71,20 @@ class Navbar extends React.Component {
       return (
       <>
       <header className="bg-dark">
-      <nav className="container-md navbar navbar-expand-sm navbar-dark px-3">
-        <button href="" className="navbar-brand m-2 h1 logo" onClick={() => this.changeActiveComponent("home")}>
-          J
-        </button>
-        <button
-          type="button"
-          data-bs-toggle="collapse"
-          data-target="#navbarNav"
-          className="navbar-toggler"
-        ></button>
-        <div
-          className="collapse navbar-collapse flex-row-reverse bg-dark"
-          id="navbarNav"
-        >
-          {this.createNavButtons()}
-        </div>
-      </nav>
+        <nav class="navbar navbar-expand-sm container-md navbar-dark">
+          <div class="container-fluid">
+            <button href="" className="navbar-brand m-2 h1 logo" onClick={() => this.changeActiveComponent("home")}>
+              J
+            </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+              {this.createNavButtons()}
+            </div>
+          </div>
+        </nav>
       </header>
       </>
       )
