@@ -3,11 +3,11 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer className="my-footer bg-dark">
-        <div className="container-md">
-            &copy; 2023 - Jon Waaler Portfolio - <a href="/Privacy">Privacy</a>
-        </div>
-    </footer>
+    <>
+      <footer className="bg-dark">
+        <p>&copy; 2023 - Jon Waaler</p>
+      </footer>
+    </>
   );
 }
 
