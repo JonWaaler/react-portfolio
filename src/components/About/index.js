@@ -20,9 +20,13 @@ function About() {
             </div>
             <div className="about-desc">
               <p>
-                Industrious entry level Full Stack Web Developer with 2 years of professional experience in Game Development using Unity3D and C#. 
+                Junior Full Stack Web Developer with 2 years of professional experience in Game Development using Unity3D and C#. 
                 I started programming in highschool and later completed (with Honors) a 4 year Game Development degree at Ontario Tech University.       
               </p>
+              <ol>
+                <li>2 years of professional experience in Game Development using Unity3D and C#</li>
+                <li></li>
+              </ol>
               <li style={{listStyle: "none", display: "flex", justifyContent: "center"}}>
                 <a id="resume-btn" className="nav-link rounded" target="_blank" href={data["resume-link"]} style={{width: "100px", textAlign: "center"}} >
                   Resume
