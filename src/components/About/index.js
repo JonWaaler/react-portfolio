@@ -4,7 +4,6 @@ import data from "../../projects.json";
 
 import "./About.css"
 
-import Codepen from "../Codepen";
 function About() {
   return (
     <>
@@ -14,7 +13,7 @@ function About() {
             <div className="about-title">
               <h3 style={{color: "#b8e9f1"}}>About Me</h3>
               <div className="location-tag">
-                <img className="appear-top" src={ LocationIcon } />
+                <img className="appear-top" src={ LocationIcon } alt="Location Icon"/>
                 <h3  style={{color: "#b8e9f1", margin: "auto 0"}}>Toronto, Ontario</h3>
               </div>
             </div>
@@ -28,7 +27,7 @@ function About() {
                 <li></li>
               </ol>
               <li style={{listStyle: "none", display: "flex", justifyContent: "center"}}>
-                <a id="resume-btn" className="nav-link rounded" target="_blank" href={data["resume-link"]} style={{width: "100px", textAlign: "center"}} >
+                <a id="resume-btn" className="nav-link rounded" target="_blank" rel="noreferrer" href={data["resume-link"]} style={{width: "100px", textAlign: "center"}} >
                   Resume
                 </a>
               </li>

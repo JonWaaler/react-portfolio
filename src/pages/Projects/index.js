@@ -1,6 +1,5 @@
 import React from "react";
 import "./Projects.css";
-import BrowserLink from "../../assets/images/browser-link.png"
 let data = require('../../projects.json');
 
 function createProjectTags(projectTags) {
@@ -21,8 +20,8 @@ function createProjectDiv(project){
       <div>
 
         {/* Section1 - Image */}
-        <a href={`${project.website}`} target="_blank">
-          <img src={project.imageURI}></img>
+        <a href={`${project.website}`} target="_blank"  rel="noreferrer">
+          <img src={project.imageURI} alt="project page"></img>
         </a>
 
         {/* Section2 -  */}
@@ -42,7 +41,7 @@ function createProjectDiv(project){
 
           {/* Button links */}
           <div className="links">
-            <a href={`${project.github}`} target="_blank">
+            <a href={`${project.github}`} target="_blank"  rel="noreferrer">
               <button className="btn btn-secondary">
                 View Source
                 <svg style={{margin: "2px 4px"}} xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
@@ -50,7 +49,7 @@ function createProjectDiv(project){
                 </svg>
               </button>
             </a>
-            <a href={`${project.website}`} target="_blank">
+            <a href={`${project.website}`} target="_blank" rel="noreferrer">
               <button className="btn btn-secondary">Live Demo
                  <svg className="live-demo" xmlns="http://www.w3.org/2000/svg" version="1.0" width="24" height="24" viewBox="0 0 64 64" preserveAspectRatio="xMidYMid meet">
                     <g  className="live-demo" transform="translate(0.000000,64.000000) scale(0.100000,-0.100000)" fill="#fff" stroke="none">

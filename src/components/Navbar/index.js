@@ -2,11 +2,7 @@ import React from "react";
 import ResumeLink from "../../projects.json"
 import "./Navbar.css"
 
-class Navbar extends React.Component {
-    constructor(props) {
-      super(props);
-    }
-  
+class Navbar extends React.Component {  
     // Tell the parent component "App" to switch to a different component
     changeActiveComponent(componentName) {
         this.props.propChangeComponent(componentName);
@@ -15,7 +11,7 @@ class Navbar extends React.Component {
     // Creates a Navbutton, choosing between an 'active' or inactive version of the button
     createButton (componentName) {
       // Check if the component we're creating is the active component
-      if(this.props.propActiveComponent == componentName){
+      if(this.props.propActiveComponent === componentName){
         return (
           // Active button
           <button 
@@ -59,7 +55,7 @@ class Navbar extends React.Component {
               }
             </li>
             <li className="nav-item active bg-dark">
-              <a id="resume-btn" className="nav-link active rounded" target="_blank" href={ResumeLink["resume-link"]}>
+              <a id="resume-btn" className="nav-link active rounded" target="_blank" rel="noreferrer" href={ResumeLink["resume-link"]}>
                 Resume
               </a>
             </li>
