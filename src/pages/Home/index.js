@@ -43,7 +43,7 @@ class Home extends React.Component {
 
         
         {/* About section */}
-        <div id="about-me" className="" style={{height: "800px", margin: "60px 0"}}>
+        <div id="about-me" className="" style={{margin: "60px 0"}}>
           <About />
         </div>
         

@@ -52,10 +52,16 @@ function createProjectDiv(project){
             </a>
             <a href={`${project.website}`} target="_blank">
               <button className="btn btn-secondary">Live Demo
-                <img 
-                  style={{height: "24px", width: "24px", margin: "2px 4px", filter: "invert()", boxShadow: "none", borderRadius: "0px"}}
-                 src={BrowserLink}>
-                 </img>
+                 <svg className="live-demo" xmlns="http://www.w3.org/2000/svg" version="1.0" width="24" height="24" viewBox="0 0 64 64" preserveAspectRatio="xMidYMid meet">
+                    <g  className="live-demo" transform="translate(0.000000,64.000000) scale(0.100000,-0.100000)" fill="#fff" stroke="none">
+                    <path d="M33 622 c-27 -17 -33 -70 -33 -301 0 -265 5 -294 52 -310 41 -15 495 -15 536 0 47 16 52 45 52 310 0 231 -6 284 -33 301 -16 10 -558 10 -574 0z m565 -79 l3 -53 -280 0 -281 0 0 48 c0 27 3 52 7 55 4 4 128 6 277 5 l271 -3 3 -52z m2 -288 c0 -192 -1 -205 -19 -215 -26 -14 -496 -14 -522 0 -18 10 -19 23 -19 215 l0 205 280 0 280 0 0 -205z"/>
+                    <path d="M83 548 c2 -7 10 -13 17 -13 7 0 15 6 18 13 2 7 -5 12 -18 12 -13 0 -20 -5 -17 -12z"/>
+                    <path d="M163 548 c2 -7 10 -13 17 -13 7 0 15 6 18 13 2 7 -5 12 -18 12 -13 0 -20 -5 -17 -12z"/>
+                    <path d="M152 300 c-30 -28 -30 -82 0 -110 27 -25 118 -29 118 -5 0 11 -11 15 -43 15 -47 0 -67 13 -67 45 0 32 20 45 67 45 32 0 43 4 43 15 0 24 -91 20 -118 -5z"/>
+                    <path d="M370 305 c0 -11 11 -15 43 -15 47 0 67 -13 67 -45 0 -32 -20 -45 -67 -45 -32 0 -43 -4 -43 -15 0 -24 91 -20 118 5 30 28 30 82 0 110 -27 25 -118 29 -118 5z"/>
+                    <path d="M260 245 c0 -12 13 -15 60 -15 47 0 60 3 60 15 0 12 -13 15 -60 15 -47 0 -60 -3 -60 -15z"/>
+                    </g>
+                  </svg>
               </button>
             </a>
           </div>

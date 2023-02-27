@@ -64,10 +64,13 @@
   background-color: var(--dark-bg);
   border-color: var(--regular-color);
   color: var(--regular-color);
+  fill: var(--regular-color);
+  transition: 0s;
 }
 .btn-secondary:hover {
   background-color: var(--dark-bg);
   border-color: var(--regular-color);
   color: var(--bright-text);
-  transition: 0.1s;
+  fill: var(--bright-text);
+  transition: 0s;
 }

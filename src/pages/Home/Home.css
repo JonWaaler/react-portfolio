@@ -48,12 +48,7 @@
 .view-code-sample img:hover {
   filter: hue-rotate(430deg);
 }
-.view-code-sample img {
-  fill: #fff
-}
-.view-code-sample img:hover path {
-  fill: aquamarine;
-}
+
 .view-code-sample p {
   margin-bottom: 0;
 }
@@ -90,6 +85,30 @@
   }
 }
 
+/* MEDIA QUERIES */
+@media screen and (max-width: 375px) {
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+}
+@media screen and (min-width: 375px) {
+  .about-me {
+    height: 800px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .about-me {
+    height: 1000px;
+  }
+}
+
 /* Height - MEDIA QUERY */
 @media screen and (max-height: 720px) {
   .hero h1 {
@@ -109,20 +128,4 @@
   .hero h3 {
     font-size: 1.9em;
   }
-}
-/* MEDIA QUERIES */
-@media screen and (max-width: 375px) {
-  .profile-pic {
-    width: 80px;
-    height: 80px;
-    position: relative;
-    overflow: hidden;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 10px;
-  }
-  
-}
-@media screen and (min-width: 375px) {
-
 }

@@ -1,7 +1,7 @@
 .projects {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: stretch;
   align-items: flex-start;
 }
 .project {
@@ -31,7 +31,6 @@
 .tags {
   display: flex;
   flex-wrap: wrap;
-  min-height: 44px;
 }
 .tag {
   color: var(--regular-text);
@@ -43,6 +42,14 @@
 }
 .tag:hover {
   color: var(--bright-text);
+}
+
+.live-demo {
+  fill: inherit;
+  margin: 2px 4px;
+}
+.live-demo:hover {
+  fill: inherit;
 }
 
 .links {
