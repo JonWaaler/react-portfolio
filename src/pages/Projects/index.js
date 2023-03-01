@@ -29,6 +29,7 @@ function createProjectDiv(project){
           {/* Tags */}
           <h5>Technologies</h5>
           <ul className="tags container-lg">
+            <li className="tag" style={{borderColor: "#26c148"}}>Host: <strong>{project.liveOn}</strong></li>
             {
               project.tags.map(createProjectTags)
             }

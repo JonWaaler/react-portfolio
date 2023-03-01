@@ -4,6 +4,7 @@ import About from "../../components/About";
 
 import DownChevronIcon from "../../assets/images/down-chevron.svg";
 import ParticleBackground from "../../components/ParticleBackground";
+import ProfilePicture from "../../assets/images/profile140.png";
 import "./Home.css";
 
 class Home extends React.Component {
@@ -20,7 +21,7 @@ class Home extends React.Component {
           { /* Home/hero */}
           <div className="container"  style={{height: "80vh"}}>
             <div className="center-container-col hero">
-              <img className="profile-pic" src="https://jonwaaler.github.io/images/profilepicture.jpg" alt="of jon waaler"/>
+              <img className="profile-pic" src={ProfilePicture} alt="jon waaler"/>
               <h1 className="glow">Jon Waaler</h1>
               <h3 className="">Full-Stack Developer</h3>
               <button className="center-container action-view-work appear-top bg-normal" onClick={() => this.changeActiveComponent("projects")}>

@@ -9,8 +9,8 @@
         "Razor Pages"
       ],
       "videoShowcase": "",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "liveOn": "Microsoft Azure",
+      "description": "A simple ASP.NET Core Note taking project, allows users to Create, Read, Update, and Delete (CRUD) notes. I wanted to explore other common in demand technologies to give my portfolio more variety so I built a common app and deployed it. I plan to further my knowledge in .Net by creating a more advanced website in the future.",
       "imageURI": "https://i.imgur.com/prYL6T6.png",
       "website": "https://testexnotesapp.azurewebsites.net/",
       "github": "https://github.com/JonWaaler/ASPCore_NoteApp"
@@ -27,6 +27,7 @@
       ],
       "videoShowcase": "",
       "liveOn": "Heroku",
+      "description": "Tech Blog Shorts is a social platform where anyone can create an account, post a blog, and recieve comments from other users. This app explores interesting topics like: custom authentication, Model-View-Control (MVC), handlebars.js (similar to React), and an SQL database.",
       "imageURI": "https://i.imgur.com/cH4lzM6.png",
       "website": "https://jon-tech-blog-shorts.herokuapp.com/",
       "github": "https://github.com/JonWaaler/MVC-Challenge"

@@ -13,7 +13,7 @@ function About() {
             <div className="about-title">
               <h3 style={{color: "#b8e9f1"}}>About Me</h3>
               <div className="location-tag">
-                <img className="appear-top" src={ LocationIcon } alt="Location Icon"/>
+                <img className="appear-top" style={{width: "24px", height: "24px"}} src={ LocationIcon } alt="Location Icon"/>
                 <h3  style={{color: "#b8e9f1", margin: "auto 0"}}>Toronto, Ontario</h3>
               </div>
             </div>
