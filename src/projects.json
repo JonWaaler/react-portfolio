@@ -2,7 +2,7 @@
   "resume-link": "https://drive.google.com/file/d/16WalIDzDv0-8KEHwD94HM1h0_TG5308p/view",
   "projects": [
     {
-      "title": "NoteTaker - ASP.Dotnet",
+      "title": "Todo List",
       "tags": [
         "C#",
         "ASP Dotnet",
@@ -10,10 +10,10 @@
       ],
       "videoShowcase": "",
       "liveOn": "Microsoft Azure",
-      "description": "A simple ASP.NET Core Note taking project, allows users to Create, Read, Update, and Delete (CRUD) notes. I wanted to explore other common in demand technologies to give my portfolio more variety so I built a common app and deployed it. I plan to further my knowledge in .Net by creating a more advanced website in the future.",
-      "imageURI": "https://i.imgur.com/prYL6T6.png",
-      "website": "https://testexnotesapp.azurewebsites.net/",
-      "github": "https://github.com/JonWaaler/ASPCore_NoteApp"
+      "description": "A simple ASP.NET Core Todo List project. Allows users to Create, Read, Update, and Delete (CRUD) a list. I wanted to explore other common in demand technologies to give my portfolio more variety so I built something simple and deployed it. I plan to further my knowledge in ASP.NET by creating a more advanced website in the future.",
+      "imageURI": "https://i.imgur.com/XtDVYUB.png",
+      "website": "https://msdocs-tutorial-jsw.azurewebsites.net/",
+      "github": "https://github.com/JonWaaler/msdocs-app-service-sqldb-dotnetcore"
     },
 
     {
@@ -42,6 +42,7 @@
       ],
       "videoShowcase": "",
       "liveOn": "Github Pages",
+      "description": "",
       "imageURI": "https://i.imgur.com/VaV5zb9.png",
       "website": "https://jonwaaler.github.io/open-weather/",
       "github": "https://github.com/JonWaaler/open-weather"
@@ -56,6 +57,7 @@
       ],
       "videoShowcase": "",
       "liveOn": "Github Pages",
+      "description": "",
       "imageURI": "https://i.imgur.com/1neSGD9.png",
       "website": "https://jonwaaler.github.io/run-buddy/",
       "github": "https://github.com/JonWaaler/run-buddy"
