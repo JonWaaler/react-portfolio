@@ -69,11 +69,11 @@
 /* Glow effects */
 .glow {
   font-size: 24px;
-  color: #fff;
+  color: var(--bright-text);
   text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  /* -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate; */
 }
 
 @keyframes glow {
@@ -101,6 +101,10 @@
 @media screen and (min-width: 375px) {
   .about-me {
     height: 800px;
+  }
+  .profile-pic {
+    width: 140px;
+    height: 140px;
   }
 }
 @media screen and (min-width: 1024px) {

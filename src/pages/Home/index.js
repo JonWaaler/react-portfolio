@@ -17,7 +17,6 @@ class Home extends React.Component {
   render() {
     return (
       <main className="bg-normal">
-        <ParticleBackground />
           { /* Home/hero */}
           <div className="container"  style={{height: "80vh"}}>
             <div className="center-container-col hero">
@@ -58,6 +57,8 @@ class Home extends React.Component {
               </a>
             </div>
         </div>
+
+        <ParticleBackground />
       </main>
     )
   }
