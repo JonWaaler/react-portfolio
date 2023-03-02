@@ -19,7 +19,7 @@ class Home extends React.Component {
       <main className="bg-normal">
           { /* Home/hero */}
           <div className="container"  style={{height: "80vh"}}>
-            <div className="center-container-col hero">
+            <div className="center-container-col hero appear-top">
               <img className="profile-pic" src={ProfilePicture} alt="jon waaler"/>
               <h1 className="glow">Jon Waaler</h1>
               <h3 className="">Full-Stack Developer</h3>
@@ -47,7 +47,7 @@ class Home extends React.Component {
         </div>
 
         {/* Social links section */}
-        <div className="container" style={{height: "400px"}}>
+        <div className="container " style={{height: "400px"}}>
             <div className="social-links">
               <h2 className="appear-top">More Code on GitHub</h2>
               <a className="appear-top" label="github" href="https://github.com/JonWaaler/react-portfolio" target="_blank"  rel="noreferrer">
