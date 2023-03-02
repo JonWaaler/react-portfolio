@@ -10,7 +10,7 @@
       ],
       "videoShowcase": "",
       "liveOn": "Microsoft Azure",
-      "description": "A simple ASP.NET Core Todo List project. Allows users to Create, Read, Update, and Delete (CRUD) a list. I wanted to explore other common in demand technologies to give my portfolio more variety so I built something simple and deployed it. I plan to further my knowledge in ASP.NET by creating a more advanced website in the future.",
+      "description": "A simple ASP.NET Core Todo List project. Allows users to Create, Read, Update, and Delete (CRUD) a list. I wanted to explore other common in-demand technologies to give my portfolio more variety, so I built something simple and deployed it. I plan to further my knowledge of ASP.NET by creating a more advanced website in the future.",
       "imageURI": "https://i.imgur.com/XtDVYUB.png",
       "website": "https://msdocs-tutorial-jsw.azurewebsites.net/",
       "github": "https://github.com/JonWaaler/msdocs-app-service-sqldb-dotnetcore"
@@ -27,7 +27,7 @@
       ],
       "videoShowcase": "",
       "liveOn": "Heroku",
-      "description": "Tech Blog Shorts is a social platform where anyone can create an account, post a blog, and recieve comments from other users. This app explores interesting topics like: custom authentication, Model-View-Control (MVC), handlebars.js (similar to React), and an SQL database.",
+      "description": "Tech Blog Shorts is a social platform where anyone can create an account, post a blog, and receive comments from other users. This app explores interesting topics such as custom authentication, Model-View-Control (MVC), handlebars.js (similar to React), and an SQL database.",
       "imageURI": "https://i.imgur.com/cH4lzM6.png",
       "website": "https://jon-tech-blog-shorts.herokuapp.com/",
       "github": "https://github.com/JonWaaler/MVC-Challenge"
@@ -42,7 +42,7 @@
       ],
       "videoShowcase": "",
       "liveOn": "Github Pages",
-      "description": "",
+      "description": "A front-end application using the Open Weather API. This is a project I made early on in my career and will be replaced with a more unique project later on.",
       "imageURI": "https://i.imgur.com/VaV5zb9.png",
       "website": "https://jonwaaler.github.io/open-weather/",
       "github": "https://github.com/JonWaaler/open-weather"
@@ -57,7 +57,7 @@
       ],
       "videoShowcase": "",
       "liveOn": "Github Pages",
-      "description": "",
+      "description": "This is a project based on an in-depth tutorial, and I learned a lot about conventions, flexbox, styling, and mobile design.",
       "imageURI": "https://i.imgur.com/1neSGD9.png",
       "website": "https://jonwaaler.github.io/run-buddy/",
       "github": "https://github.com/JonWaaler/run-buddy"
