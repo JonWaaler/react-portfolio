@@ -1,23 +1,24 @@
 .about-section {
-  padding: 60px 20%;
+  padding: 60px 20% 10px;
 }
 .about-title {
   color: var(--bright-text);
-  text-align: center;
   margin-bottom: 10px;
-  display: flex;
-  justify-content: space-around;
+
 }
 .about-desc {
-  color: whitesmoke;
-  text-align: center;
+  color: var(--regular-text);
+  padding-left: 12px;
 }
 .location-tag {
   display: flex;
-  align-items: center;
+  justify-content: center;
   color: var(--bright-text);
+  margin-bottom: 40px;
 }
 .location-tag img {
   height: 24px;
 }
-
+.strong {
+  color: whitesmoke
+}
