@@ -1,6 +1,4 @@
-.about-section {
-  padding: 60px 20% 10px;
-}
+
 .about-title {
   color: var(--bright-text);
   margin-bottom: 10px;
@@ -21,4 +19,22 @@
 }
 .strong {
   color: whitesmoke
+}
+
+/* Media queries (smallest -> largest) */
+@media screen and (max-width: 375px) {
+  .about-section {
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 375px) {
+  .about-section {
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 575px) {
+  .about-section {
+    padding: 60px 20% 10px;
+  }
+  
 }
