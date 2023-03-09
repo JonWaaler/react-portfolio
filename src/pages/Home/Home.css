@@ -24,12 +24,17 @@
 
 
 /* The "call to action button on hero section */
-.action-view-work {
+.btn-view-projects {
     border: 3px solid whitesmoke;
     color: whitesmoke;
     padding: 10px 20px;
     padding-left: 24px;
     margin: 20px auto;
+}
+.btn-view-projects:hover {
+  background-color: var(--regular-color);
+  color: black;
+  transition: 0.3s;
 }
 
 /* Down arrow/chevron */

@@ -23,7 +23,7 @@ class Home extends React.Component {
               <img className="profile-pic" src={ProfilePicture} alt="jon waaler"/>
               <h1 className="glow">Jon Waaler</h1>
               <h3 className="">Full-Stack Developer</h3>
-              <button className="center-container action-view-work appear-top bg-normal" onClick={() => this.changeActiveComponent("projects")}>
+              <button className="center-container btn-view-projects appear-top bg-normal" onClick={() => this.changeActiveComponent("projects")}>
                 <p className="center">View My Projects</p>
               </button>
             </div>
