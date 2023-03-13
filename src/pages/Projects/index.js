@@ -11,6 +11,13 @@ function createProjectTags(projectTags) {
 }
 
 function createProjectDiv(project){
+  let noticeMsg;
+  if(project.title == "Todo List"){
+    noticeMsg = 
+    <div className="alert alert-warning notice" role="alert">
+      <strong>Notice:</strong> Switching from Azure to Digital Ocean. Website no longer live.
+    </div>
+  }
   return (
     <div className="project" key={project.title}>
       {/* Title */}
@@ -19,6 +26,7 @@ function createProjectDiv(project){
       {/*  */}
       <div>
 
+        {noticeMsg}
         {/* Section1 - Image */}
         <a href={`${project.website}`} target="_blank"  rel="noreferrer">
           <img src={project.imageURI} alt="project page"></img>
