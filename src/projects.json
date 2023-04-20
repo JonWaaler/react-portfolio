@@ -18,19 +18,21 @@
       "github": "https://github.com/JonWaaler/MVC-Challenge"
     },
     {
-      "title": "Todo List",
+      "title": "100 Verbs - Learn Spanish!",
       "tags": [
         "C#",
-        "ASP.NET",
-        ".NET Core",
-        "Razor Pages"
+        "Identity Auth",
+        "ASP.NET Core",
+        "Razor Pages",
+        "SQL",
+        "Continuous Integration"
       ],
       "videoShowcase": "",
-      "liveOn": "Microsoft Azure",
-      "description": "A simple ASP.NET Core Todo List project. Allows users to Create, Read, Update, and Delete (CRUD) on a list. I wanted to explore other common in-demand technologies to give my portfolio more variety, so I built something simple and deployed it. I plan to further my knowledge of ASP.NET by creating a more advanced website in the future.",
-      "imageURI": "https://i.imgur.com/XtDVYUB.png",
-      "website": "https://msdocs-tutorial-jsw.azurewebsites.net/",
-      "github": "https://github.com/JonWaaler/msdocs-app-service-sqldb-dotnetcore"
+      "liveOn": "Digital Ocean: Virtual Machine",
+      "description": "A website that aligns with my passion to learn spanish. After learning spanish verb conjugations you start to wonder if you've learned enough verbs. So I created this website and seeded an SQLite database with 100 spanish verbs that I can now practice.",
+      "imageURI": "https://i.imgur.com/kzlBFx1.png",
+      "website": "http://learn-spanish.jonwaaler.com/",
+      "github": "https://github.com/JonWaaler/dotnet-spanish-verbs"
     },
     {
       "title": "Open Weather API",
