@@ -11,20 +11,7 @@
 
   <h3 align="center">Jon Waaler's Portfolio</h3>
 
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://www.jonwaaler.com/"><strong>Live Website »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/JonWaaler/react-portfolio/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/JonWaaler/react-portfolio/issues">Request Feature</a>
-  </p>
-</div>
-
-
-
+  
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
