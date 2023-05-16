@@ -22,7 +22,7 @@
       "tags": [
         "C#",
         "Identity Auth",
-        "ASP.NET Core",
+        "ASP.NET Core 7",
         "Razor Pages",
         "SQL",
         "Continuous Integration"
@@ -30,7 +30,7 @@
       "videoShowcase": "",
       "liveOn": "Digital Ocean: Virtual Machine",
       "description": "A website that aligns with my passion to learn spanish. After learning spanish verb conjugations you start to wonder if you've learned enough verbs. So I created this website and seeded an SQLite database with 100 spanish verbs that I can now practice.",
-      "imageURI": "https://i.imgur.com/kzlBFx1.png",
+      "imageURI": "https://i.imgur.com/EBIjWhG.png",
       "website": "http://learn-spanish.jonwaaler.com/",
       "github": "https://github.com/JonWaaler/dotnet-spanish-verbs"
     },
